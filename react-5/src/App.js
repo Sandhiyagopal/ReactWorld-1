@@ -2,6 +2,7 @@ import Message1 from './Message1';
 import Navbar from './Navbar/Navbar';
 import Msg from './Msg'
 import State1 from './State/State1';
+import User from './Props/User';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <hr />
       <State1 />
       <Msg />
+      <User />
     </div>
   );
 }
