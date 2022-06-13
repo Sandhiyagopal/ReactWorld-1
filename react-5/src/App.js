@@ -1,7 +1,6 @@
 import Message1 from './Message1';
 import Navbar from './Navbar/Navbar';
-import Eventbind from '../../Backup/Eventbind/Eventbind';
-import Event from '../../Backup/Eventbind/Event';
+import Msg from './Msg'
 
 function App() {
   return (
@@ -10,8 +9,7 @@ function App() {
       <h1>Hello World</h1>
       <Message1 />
       <hr />
-      <Eventbind />
-      <Event />
+      <Msg />
     </div>
   );
 }
