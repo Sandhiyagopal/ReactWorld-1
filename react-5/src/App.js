@@ -1,6 +1,7 @@
 import Message1 from './Message1';
 import Navbar from './Navbar/Navbar';
 import Msg from './Msg'
+import Psa from './Psa';
 
 function App() {
   return (
@@ -9,10 +10,8 @@ function App() {
       <h1>Hello World</h1>
       <Message1 />
       <hr />
-      <State1 />
       <Msg />
-      <Product />
-      <User />
+      <Psa />
     </div>
   );
 }
