@@ -2,6 +2,8 @@ import Message1 from './Message1';
 import Navbar from './Navbar/Navbar';
 import Msg from './Msg'
 import Psa from './Psa';
+import Exam from './Condition/Exam';
+import Exam1 from './Condition/Exam1';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <hr />
       <Msg />
       <Psa />
+      <Exam />
+      <Exam1 />
     </div>
   );
 }
