@@ -1,10 +1,8 @@
 import Message1 from './Message1';
 import Navbar from './Navbar/Navbar';
 import Msg from './Msg'
-import ListRender1 from './ListRender/ListRender1';
-import ListRender2 from './ListRender/ListRender2';
-import ListRender3 from './ListRender/ListRender3';
-
+import Form from './FormHand/Form'
+import Form1 from './FormHand/Form1';
 function App() {
   return (
     <div>
@@ -15,11 +13,9 @@ function App() {
       <hr />
       <Msg />
       <hr />
-      <ListRender1 />
-      <hr />
-      <ListRender2 />
-      <hr />
-      <ListRender3 />
+     <Form />
+     <hr />
+     <Form1 />
     </div>
   );
 }
