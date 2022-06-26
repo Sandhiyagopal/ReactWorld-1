@@ -1,9 +1,18 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import Contactapp from './Contact/Contactapp'
+import Navbar from './Navbar/Navbar'
+
 class App extends Component {
   render() {
     return (
       <div>
-        <h2>App data</h2>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/contactapp" element={<Contactapp />} />
+          </Routes>
+        </Router>
       </div>
     )
   }
