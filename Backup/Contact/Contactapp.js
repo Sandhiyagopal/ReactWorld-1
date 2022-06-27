@@ -5,7 +5,7 @@ import Axios from 'axios'
 
 class Contactapp extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             contacts: [],
             selectedContact: {}
